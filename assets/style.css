@@ -2,6 +2,7 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -27,7 +28,7 @@ header div {
 }
 
 main {
-    background: #cbcbcb;
+    background: white;
     margin: 50px 20% 0;
 }
 
@@ -58,4 +59,32 @@ main {
     border: 1px solid #aaaaaa;
 }
 
+section {
+    margin-top: 25px;
+}
 
+section li {
+    padding: 5px 15px 5px;
+}
+
+section ul{
+    list-style: none;
+}
+
+ul .checked::before {
+    padding: 1px;
+    margin-right: 10px;
+    color: green;
+    content: "✔ ";
+    border: 1px solid green;
+    border-radius: 50%;
+}
+
+ul .unchecked::before {
+    padding: 1px;
+    margin-right: 10px;
+    color: red;
+    content: "✗ ";
+    border: 1px solid red;
+    border-radius: 50%;
+}

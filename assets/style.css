@@ -1,11 +1,61 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #f4f6f7;
+    width: 100vw;
+    font-family: 'Open Sans', sans-serif;
+}
+
 header {
-
+    background: white;
+    position: relative;
 }
 
-.logo {
-
+header div {
+    display: inline-block;
 }
 
-.logo img {
-
+#logo-title {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    font-weight: 600;
 }
+
+main {
+    background: #cbcbcb;
+    margin: 50px 20% 0;
+}
+
+.navbar {
+    background: white;
+    padding: 10px 50px 10px;
+    margin-bottom: 1px;
+}
+
+.navbar ul li {
+    display: inline-block;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar #btn-add-task {
+    background: #46acef;
+}
+
+.navbar #btn-add-section {
+    color: #aaaaaa;
+    background: #fdfdfd;
+    border: 1px solid #aaaaaa;
+}
+
+
